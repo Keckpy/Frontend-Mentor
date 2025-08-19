@@ -6,6 +6,8 @@ Each project has the basic solution as required, plus an improved version where 
 ## Projects
 - **QR Code Component**
   - [View Code](Challenges/qr-code-component-main) | [Live Demo](https://keckpy.github.io/Frontend-Mentor/Challenges/qr-code-component-main/)
+- **Blog Preview Card**
+  - [View Code](Challenges/blog-preview-card-main) | [Live Demo](https://keckpy.github.io/Frontend-Mentor/Challenges/blog-preview-card-main/)
 
 ---
 
