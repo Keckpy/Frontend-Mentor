@@ -5,7 +5,7 @@ Each project has the basic solution as required, plus an improved version where 
 
 ## Projects
 - **QR Code Component**
-  - [Code](Challenges/qr-code-component-main) | [Page](https://keckpy.github.io/Frontend-Mentor/Challenges/qr-code-component-main/)
+  - [View Code](Challenges/qr-code-component-main) | [Live Demo](https://keckpy.github.io/Frontend-Mentor/Challenges/qr-code-component-main/)
 
 ---
 
