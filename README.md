@@ -8,6 +8,9 @@ Each project has the basic solution as required, plus an improved version where 
   - [View Code](Challenges/qr-code-component-main) | [Live Demo](https://keckpy.github.io/Frontend-Mentor/Challenges/qr-code-component-main/)
 - **Blog Preview Card**
   - [View Code](Challenges/blog-preview-card-main) | [Live Demo](https://keckpy.github.io/Frontend-Mentor/Challenges/blog-preview-card-main/)
+- **Social Links**
+  - [View Code](Challenges/social-links-profile-main) | [Live Demo](https://keckpy.github.io/Frontend-Mentor/Challenges/social-links-profile-main/)
+
 
 ---
 
