@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Figtree";
+    src: url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Figtree";
+    background-color: #F4D04E;
+    display: flex;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #FFFFFF;
+    margin: auto;
+    max-width: 384px;
+    min-height: 522px;
+    border-radius: 20px;
+    padding: 24px;
+}
