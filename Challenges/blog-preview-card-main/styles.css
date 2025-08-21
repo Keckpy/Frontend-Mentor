@@ -30,13 +30,16 @@ body {
     min-height: 100vh;
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
+    padding-inline: 24px;
 }
 
 .card {
     background-color: #FFFFFF;
     margin: auto;
     max-width: 384px;
-    min-height: 522px;
+    max-height: 522px;
+    min-width: 327px;
+    min-height: 501px;
     border-radius: 20px;
     padding: 24px;
     display: flex;
