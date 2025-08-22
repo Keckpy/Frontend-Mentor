@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --main-font: "Inter", sans-serif;
+    --grey-900: #141414;
+    --grey-800: #1F1F1F;
+    --grey-700: #333333;
+    --green: #C4F82A;
+    --white: #FFFFFF;
+    --text-preset-1: 24px;
+    --text-preset-2: 14px;
+    --normal: 400;
+    --semi-bold: 600;
+    --bold: 700;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--white);
+    background-color: var(--grey-900);
+    letter-spacing: 0px;
+    line-height: 150%;
+    font-size: var(--text-preset-2);
+    font-weight: var(--bold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-inline: 24px;
+}
+
+.card {
+    background-color: var(--grey-800);
+    inline-size: clamp(327px, calc(100svw - 48px), 384px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: clamp(24px, 4svh, 40px);
+    padding-inline: clamp(24px, 4svw, 40px);
+    gap: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card img {
+    width: 88px;
+    border-radius: 100%;
+}
+
+.card .id {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card #name {
+    font-weight: var(--semi-bold);
+    font-size: var(--text-preset-1);
+    padding-block-end: 8px;
+}
+
+.card #location {
+    color: var(--green);
+    font-weight: var(--bold);
+}
+
+.card p {
+    font-weight: var(--normal);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.links p {
+    background-color: var(--grey-700);
+    border-radius: 8px;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: var(--bold);
+
+    transition: background-color .6s ease-in, color .6s ease-in;
+}
+
+.links p:hover {
+    background-color: var(--green);
+    color: var(--grey-700);
+    transition-duration: .1s, .1s;
+    transition-timing-function: ease-out, ease-out;
+}
